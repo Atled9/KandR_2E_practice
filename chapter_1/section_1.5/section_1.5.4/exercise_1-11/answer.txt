@@ -1,0 +1,23 @@
+Thesis {
+	I would test the word count program using english panagrams
+	typed out with tabs, spaces, newlines, and capitalization.
+}
+example_1 {
+	"The Quick	Brown Fox
+	Jumps Over	the Lazy Dog"
+}
+example_2 {
+	"Sphinx of	black quartz
+	judge my	Vow"
+}
+Explanation {
+	The use of input tested with escape sequence characters
+	would most likely uncover bugs. Special characters such
+	as tab (\t) and newline (\n) have to be tested separately
+	from other input, so there's a greater chance for error.
+	
+	Additionally, panagrams with capitalization test a wide
+	range of the ASCII character set, giving us a better
+	chance to expose flaws in the program.
+}
+
