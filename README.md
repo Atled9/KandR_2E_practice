@@ -1,0 +1,1 @@
+This repository contains the solutions to the exercises in Brian Kernighan and Dennis Ritchie's "The C Programming Language 2nd Edition". I have also implemented some of the examples shown in each chapter
