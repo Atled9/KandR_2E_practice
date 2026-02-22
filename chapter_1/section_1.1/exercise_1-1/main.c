@@ -1,4 +1,5 @@
-/* the printf() function comes from the standard I/O
+#include <stdio.h>
+/* the printf() function is declared in the standard I/O
  * header file. Without it, the compiler will not know
  * its definition */
 
