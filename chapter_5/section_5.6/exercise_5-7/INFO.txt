@@ -1,0 +1,7 @@
+sort0 takes about 2 times as long to execute readlines() than sort1. 
+
+sort0 calls a function to iterate over blocks of an external buffer 
+containing character data.
+
+sort1 iterates over the character data within readlines(), and the
+buffer is supplied as an argument.
